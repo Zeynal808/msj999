@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/011/635/825/non_2x/abstract-square-interface-modern-background-concept-fingerprint-digital-scanning-visual-security-system-authentication-login-vector.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    color: white;
+}
+.error-message{
+    color: red;
+    font-size: 1.5em;
+    background-color: black;
+    display: none;
+}
+.message-box{
+    width: 800px;
+    height: 600px;
+    border: 1px solid black;
+}
+.message-area{
+   display: none;
+}

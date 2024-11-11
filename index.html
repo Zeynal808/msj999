@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <div>
+                <label for="">Ad</label>
+                <input id="name" type="text" placeholder="Adinizi daxil edin">
+            </div>
+            <div>
+                <label for="">Sifre</label>
+                <input id="password" type="password" placeholder="Sifrenizi daxil edin">
+            </div>
+            <div>
+                <button>Giris Et</button>
+            </div>
+            <div class="error-message">
+                    Istifadeci adiniz ve ya Sifreniz yalnisdir
+            </div>
+
+        </form>
+
+    </div>
+    <div class="message-area">
+        <h2>Welcome our message site <span class="user-name"></span></h2>
+        <div class="message-box">
+
+        </div>
+        <textarea  name="" id="msj" cols="70" rows="10"></textarea>
+        <button class="gonder">Gonder</button>
+    </div>
+
+   
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
+    <script src="./config.js"></script>
+
+</body>
+
+</html>
